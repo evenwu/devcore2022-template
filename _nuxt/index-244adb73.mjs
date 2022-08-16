@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-84c1d017.mjs";import{o as r,a as o}from"./entry-ce8d72d4.mjs";const t={},a={class:"relative bg-gray-50"};function c(s,n){return r(),o("div",a)}var f=e(t,[["render",c]]);export{f as default};
