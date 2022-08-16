@@ -1,0 +1,463 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-e833c832.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "components/Footer.vue",
+      "components/Logo.vue",
+      "components/Nav.vue",
+      "node_modules/@headlessui/vue/dist/components/combobox/combobox.js",
+      "node_modules/@headlessui/vue/dist/components/description/description.js",
+      "node_modules/@headlessui/vue/dist/components/dialog/dialog.js",
+      "node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js",
+      "node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js",
+      "node_modules/@headlessui/vue/dist/components/label/label.js",
+      "node_modules/@headlessui/vue/dist/components/listbox/listbox.js",
+      "node_modules/@headlessui/vue/dist/components/menu/menu.js",
+      "node_modules/@headlessui/vue/dist/components/popover/popover.js",
+      "_portal-e6290ce5.mjs",
+      "node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js",
+      "node_modules/@headlessui/vue/dist/components/switch/switch.js",
+      "node_modules/@headlessui/vue/dist/components/tabs/tabs.js",
+      "node_modules/@headlessui/vue/dist/components/transitions/transition.js",
+      "node_modules/@headlessui/vue/dist/components/transitions/utils/transition.js",
+      "pages/index.vue",
+      "virtual:nuxt:/Users/even/Projects/devcore2022-template/.nuxt/error-component.mjs",
+      "layouts/default.vue"
+    ],
+    "css": [
+      "entry.973eec31.css"
+    ]
+  },
+  "virtual:nuxt:/Users/even/Projects/devcore2022-template/.nuxt/error-component.mjs": {
+    "file": "error-component-32ac42e4.mjs",
+    "src": "virtual:nuxt:/Users/even/Projects/devcore2022-template/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "components/Footer.vue": {
+    "file": "Footer-72e26d52.mjs",
+    "src": "components/Footer.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/Logo.vue",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ]
+  },
+  "components/Logo.vue": {
+    "file": "Logo-e2f035ce.mjs",
+    "src": "components/Logo.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_plugin-vue_export-helper-84c1d017.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_plugin-vue_export-helper-84c1d017.mjs": {
+    "file": "plugin-vue_export-helper-84c1d017.mjs"
+  },
+  "components/Nav.vue": {
+    "file": "Nav-9d873af3.mjs",
+    "src": "components/Nav.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/Logo.vue",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "node_modules/@headlessui/vue/dist/components/popover/popover.js",
+      "_plugin-vue_export-helper-84c1d017.mjs",
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_owner-ef86f285.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_use-window-event-e76f3a5c.mjs",
+      "_use-event-listener-422bd38e.mjs",
+      "_hidden-2d29a848.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/popover/popover.js": {
+    "file": "popover-b9b83a6e.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/popover/popover.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_owner-ef86f285.mjs",
+      "_use-event-listener-422bd38e.mjs",
+      "_hidden-2d29a848.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "_render-a3268961.mjs": {
+    "file": "render-a3268961.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_use-id-2e145a0f.mjs": {
+    "file": "use-id-2e145a0f.mjs"
+  },
+  "_keyboard-c50452c7.mjs": {
+    "file": "keyboard-c50452c7.mjs"
+  },
+  "_focus-management-a746db8b.mjs": {
+    "file": "focus-management-a746db8b.mjs",
+    "imports": [
+      "_render-a3268961.mjs",
+      "_owner-ef86f285.mjs"
+    ]
+  },
+  "_dom-d07dd68d.mjs": {
+    "file": "dom-d07dd68d.mjs"
+  },
+  "_open-closed-60cf01bc.mjs": {
+    "file": "open-closed-60cf01bc.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_use-resolve-button-type-ce49ba4d.mjs": {
+    "file": "use-resolve-button-type-ce49ba4d.mjs",
+    "imports": [
+      "_dom-d07dd68d.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_use-outside-click-e9d95a18.mjs": {
+    "file": "use-outside-click-e9d95a18.mjs",
+    "imports": [
+      "_use-window-event-e76f3a5c.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_dom-d07dd68d.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_owner-ef86f285.mjs": {
+    "file": "owner-ef86f285.mjs",
+    "imports": [
+      "_dom-d07dd68d.mjs"
+    ]
+  },
+  "_use-event-listener-422bd38e.mjs": {
+    "file": "use-event-listener-422bd38e.mjs",
+    "imports": [
+      "_use-window-event-e76f3a5c.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_hidden-2d29a848.mjs": {
+    "file": "hidden-2d29a848.mjs",
+    "imports": [
+      "_render-a3268961.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_use-window-event-e76f3a5c.mjs": {
+    "file": "use-window-event-e76f3a5c.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/combobox/combobox.js": {
+    "file": "combobox-3bff4927.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/combobox/combobox.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_calculate-active-index-130b59fd.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_use-tree-walker-4dae729b.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_hidden-2d29a848.mjs",
+      "_form-a0e06e57.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_owner-ef86f285.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "_calculate-active-index-130b59fd.mjs": {
+    "file": "calculate-active-index-130b59fd.mjs"
+  },
+  "_use-tree-walker-4dae729b.mjs": {
+    "file": "use-tree-walker-4dae729b.mjs",
+    "imports": [
+      "_owner-ef86f285.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_form-a0e06e57.mjs": {
+    "file": "form-a0e06e57.mjs"
+  },
+  "node_modules/@headlessui/vue/dist/components/description/description.js": {
+    "file": "description-c6fcfa56.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/description/description.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_use-id-2e145a0f.mjs",
+      "_render-a3268961.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/dialog/dialog.js": {
+    "file": "dialog-bfc6549c.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/dialog/dialog.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_use-id-2e145a0f.mjs",
+      "node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js",
+      "_owner-ef86f285.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_portal-e6290ce5.mjs",
+      "node_modules/@headlessui/vue/dist/components/description/description.js",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_use-event-listener-422bd38e.mjs",
+      "_hidden-2d29a848.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js": {
+    "file": "focus-trap-3ef02398.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_hidden-2d29a848.mjs",
+      "_dom-d07dd68d.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-event-listener-422bd38e.mjs",
+      "_owner-ef86f285.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "_portal-e6290ce5.mjs": {
+    "file": "portal-e6290ce5.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_owner-ef86f285.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js": {
+    "file": "disclosure-f6827df0.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_keyboard-c50452c7.mjs",
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/label/label.js": {
+    "file": "label-26da9234.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/label/label.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_use-id-2e145a0f.mjs",
+      "_render-a3268961.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/listbox/listbox.js": {
+    "file": "listbox-6dad6bc3.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/listbox/listbox.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_calculate-active-index-130b59fd.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_hidden-2d29a848.mjs",
+      "_form-a0e06e57.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_owner-ef86f285.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/menu/menu.js": {
+    "file": "menu-115aeb45.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/menu/menu.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_calculate-active-index-130b59fd.mjs",
+      "_dom-d07dd68d.mjs",
+      "_use-tree-walker-4dae729b.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_owner-ef86f285.mjs",
+      "_use-window-event-e76f3a5c.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js": {
+    "file": "radio-group-44b3e22e.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_dom-d07dd68d.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_render-a3268961.mjs",
+      "node_modules/@headlessui/vue/dist/components/label/label.js",
+      "node_modules/@headlessui/vue/dist/components/description/description.js",
+      "_use-tree-walker-4dae729b.mjs",
+      "_hidden-2d29a848.mjs",
+      "_form-a0e06e57.mjs",
+      "_owner-ef86f285.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/switch/switch.js": {
+    "file": "switch-d24a7219.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/switch/switch.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "node_modules/@headlessui/vue/dist/components/label/label.js",
+      "node_modules/@headlessui/vue/dist/components/description/description.js",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_hidden-2d29a848.mjs",
+      "_form-a0e06e57.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_dom-d07dd68d.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/tabs/tabs.js": {
+    "file": "tabs-1936948b.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/tabs/tabs.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_dom-d07dd68d.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_hidden-2d29a848.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_owner-ef86f285.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/transitions/transition.js": {
+    "file": "transition-03e2d08d.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/transitions/transition.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_use-id-2e145a0f.mjs",
+      "_render-a3268961.mjs",
+      "node_modules/@headlessui/vue/dist/components/transitions/utils/transition.js",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@headlessui/vue/dist/components/transitions/utils/transition.js": {
+    "file": "transition-eace808c.mjs",
+    "src": "node_modules/@headlessui/vue/dist/components/transitions/utils/transition.js",
+    "isDynamicEntry": true
+  },
+  "pages/index.vue": {
+    "file": "index-fb514408.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_plugin-vue_export-helper-84c1d017.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-1680f974.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/Nav.vue",
+      "_plugin-vue_export-helper-84c1d017.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "components/Logo.vue",
+      "node_modules/@headlessui/vue/dist/components/popover/popover.js",
+      "_render-a3268961.mjs",
+      "_use-id-2e145a0f.mjs",
+      "_keyboard-c50452c7.mjs",
+      "_focus-management-a746db8b.mjs",
+      "_owner-ef86f285.mjs",
+      "_dom-d07dd68d.mjs",
+      "_open-closed-60cf01bc.mjs",
+      "_use-resolve-button-type-ce49ba4d.mjs",
+      "_use-outside-click-e9d95a18.mjs",
+      "_use-window-event-e76f3a5c.mjs",
+      "_use-event-listener-422bd38e.mjs",
+      "_hidden-2d29a848.mjs"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "error-404-ec7231e9.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ],
+    "css": [
+      "error-404.314f7075.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "error-500-26ffd731.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ],
+    "css": [
+      "error-500.4e3461e5.css"
+    ]
+  }
+}

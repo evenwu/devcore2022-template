@@ -1,0 +1,1 @@
+import{o as n}from"./dom-d07dd68d.mjs";function t(e){if(typeof window=="undefined")return null;if(e instanceof Node)return e.ownerDocument;if(e!=null&&e.hasOwnProperty("value")){let o=n(e);if(o)return o.ownerDocument}return document}export{t as e};
